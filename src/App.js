@@ -6,7 +6,8 @@ import {useState} from 'react';
 import React from 'react';
 
 function App() {
-  const [colorValue, setColorValue] = useState('')
+  const [colorValue, setColorValue] = useState('');
+  console.log('hello world');
   return (
     <div 
    
