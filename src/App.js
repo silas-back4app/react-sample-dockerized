@@ -10,7 +10,7 @@ function App() {
   console.log('hello world');
   return (
     <div 
-   
+      style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}
     >
       <Square colorValue={colorValue}/>
       <Input 
